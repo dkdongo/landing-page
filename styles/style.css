@@ -1,0 +1,218 @@
+
+.banner {
+  background-color: #45A8f9;
+  color: #FFFFFF;
+  min-height: 60px;
+  width:100%;
+}
+.container {
+  width: 80%;
+  magin: auto;
+}
+body {
+font: 15px/1.5 raleway, helvetica, sans-serif;
+padding: 0;
+margin: 0;
+background-color: #FFFFFF;
+}
+/* **************TOP PROMO************ */
+.speakerphone {
+  height: 40px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.promo-banner {
+  float: right;
+  align: center;
+  margin-right: 50px;
+  font-size: 16px;
+}
+/* *************TOP BANNER*************** */
+.ubslogo {
+  float:left;
+  margin-top: 10px;
+  margin-left:100px;
+}
+.top-banner {
+  float: right;
+  display: inline;
+  color: #a3a3a3;
+  font-size: 12px;
+  margin-top:0px;
+}
+.top-description {
+  float: right;
+  display: inline;
+  margin:0px;
+  color: #1a1b5c;
+  font-size: 1rem;
+  font-weight: strong;
+}
+.region {
+display:inline;
+float: left;
+padding-left:100px;
+}
+.banner-description {
+  float:right;
+  display:grid;
+  margin:0px;
+  padding-left:5px;
+}
+.address {
+  display: inline-grid;
+  float: right;
+  margin-right:-70px;
+  padding-right: 0px;
+  padding-left:-80px;
+  box-sizing: padding-box;
+}
+.location-icon {
+  height:40px;
+  width: auto;
+  padding-left:40px;
+}
+.showroom-icon {
+  height:45px;
+  width: auto;
+  padding-left:-30px;
+  margin-left:-30px;
+  object-fit:cover;
+}
+.ecohome-icon {
+  height:90px;
+  width:auto;
+  float:right;
+  margin-right:-200px;
+}
+.phone-icon {
+  height:30px;
+  width:auto;
+  padding-top:0px;
+}
+.ig-icon {
+  height:30px;
+  width:auto;
+  padding-top:20px;
+  padding-right:50px;
+}
+.facebook-icon {
+  height:30px;
+  width:auto;
+  padding-top:20px;
+  padding-Left:-50px;
+  padding-right:25px;
+}
+.social {
+  display:inline;
+  float:left;
+  margin-left:-55px;
+}
+.phone {
+  color: #1a1b5c;
+  font-size:1.5rem;
+  padding-left:5px;
+}
+/*************NAV BAR**********************/
+#nav_bar {
+  background-color:#45A8f9;
+  height:30px;
+  width:100%;
+}
+.nav-link{
+  font-size:18px;
+  font-weight: bold;
+  display:inline;
+  padding:5px 25px;
+}
+.anav {
+  text-decoration: none;
+  color:#FFFFFF;
+}
+a:hover {
+  display:inline-block;
+  color:#12375F;
+}
+/**************MAIN BANNER****************/
+.mainbanner {
+  width:100%;
+  height:80%;
+  position:absolute;
+}
+.showcase-text {
+  color:#FFFFFF;
+  font-size:40px;
+  position:absolute;
+  text-align:center;
+  max-width:600px;
+  padding-left:150px;
+  padding-top:100px;
+  float:left;
+}
+.showcase-text2 {
+  color:#45a8f9;
+  font-size:40px;
+  position:absolute;
+  text-align:center;
+  padding-left:260px;
+  padding-top:220px;
+  float:left;
+}
+.contact-form {
+  background-color:rgba(44, 87, 155, 0.9);
+  position:absolute;
+  width:30%;
+  height:80%;
+  float:right;
+  margin-left:60%;
+}
+.form-title {
+  color:#FFFFFF;
+  text-transform:uppercase;
+  position:absolute;
+  float:right;
+  padding-left:30px;
+}
+.form-boxes {
+  display:grid;
+  padding-top:50px;
+}
+.box {
+margin:10px 20px 10px 20px;
+height:30px;
+padding-left:20px;
+font-size:18px;
+color:black;
+}
+select:invalid {
+  color:gray;
+}
+.comment-box{
+  color:gray;
+  font-size:18px;
+  margin:10px 20px 10px 20px;
+  font-family: raleway;
+  font-weight:600;
+  padding-left:20px;
+}
+textarea {
+  resize:none;
+}
+.form-submit {
+  border-radius:5px;
+  background:#45a8f9;
+  text-transform:uppercase;
+  text-align:center;
+  color:#FFFFFF;
+  border:none;
+  height:60px;
+  width:40%;
+  margin-left:120px;
+  margin-top:30px;
+  font-size:18px;
+}
+button:hover {
+  background:#12375F;
+  cursor:pointer;
+}
