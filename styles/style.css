@@ -7,13 +7,21 @@
 }
 .container {
   width: 80%;
-  magin: auto;
+
+.clr {
+  clear: both;
+}
+}
+header {
+  height:inherit;
+  width:auto;
 }
 body {
 font: 15px/1.5 raleway, helvetica, sans-serif;
 padding: 0;
 margin: 0;
-background-color: #FFFFFF;
+background-color: #ffffff;
+
 }
 /* **************TOP PROMO************ */
 .speakerphone {
@@ -24,9 +32,9 @@ background-color: #FFFFFF;
 }
 .promo-banner {
   float: right;
-  align: center;
   margin-right: 50px;
   font-size: 16px;
+  position:relative;
 }
 /* *************TOP BANNER*************** */
 .ubslogo {
@@ -62,11 +70,12 @@ padding-left:100px;
 }
 .address {
   display: inline-grid;
-  float: right;
+  float: left;
   margin-right:-70px;
   padding-right: 0px;
   padding-left:-80px;
   box-sizing: padding-box;
+  border:1px solid black;
 }
 .location-icon {
   height:40px;
@@ -79,6 +88,8 @@ padding-left:100px;
   padding-left:-30px;
   margin-left:-30px;
   object-fit:cover;
+  border:1px solid black;
+  float:left;
 }
 .ecohome-icon {
   height:90px;
@@ -119,12 +130,17 @@ padding-left:100px;
   background-color:#45A8f9;
   height:30px;
   width:100%;
+  position:absolute;
+  border:1px solid black;
+  box-sizing: border-box;
+
 }
 .nav-link{
   font-size:18px;
   font-weight: bold;
   display:inline;
   padding:5px 25px;
+  border:1px solid black;
 }
 .anav {
   text-decoration: none;
@@ -139,6 +155,7 @@ a:hover {
   width:100%;
   height:80%;
   position:absolute;
+  display:block;
 }
 .showcase-text {
   color:#FFFFFF;
@@ -177,6 +194,8 @@ a:hover {
 .form-boxes {
   display:grid;
   padding-top:50px;
+  position:absolute;
+
 }
 .box {
 margin:10px 20px 10px 20px;
@@ -184,6 +203,8 @@ height:30px;
 padding-left:20px;
 font-size:18px;
 color:black;
+float:right;
+margin-left:
 }
 select:invalid {
   color:gray;
@@ -215,4 +236,30 @@ textarea {
 button:hover {
   background:#12375F;
   cursor:pointer;
+}
+.showcase {
+  display:block;
+}
+/****************SERVICES***********************/
+#ourservices {
+  display:flex;
+}
+.services {
+  color:#1a1b5c;
+  position:absolute;
+  font-size:40px;
+  font-weight:strong;
+  float:left;
+
+  }
+  .our-services {
+    background-color:#FFFFFF;
+    height:auto;
+    width:80%;
+    position:absolute;
+    display:inline
+    padding-top:20px;
+  }
+p {
+  position:absolute;
 }

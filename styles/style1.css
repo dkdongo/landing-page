@@ -1,0 +1,866 @@
+body {
+font: 15px/1.5 raleway, helvetica, sans-serif;
+padding: 0;
+margin: 0;
+background-color: #ffffff;
+height:2000px;
+}
+.container {
+  position:relative;
+}
+.container-services {
+  display: flex;
+  width:60%;
+  height:auto;
+  flex-direction: column;
+  margin-left:40%;
+}
+.container-services2 {
+  display:flex;
+  width: 60%;
+  margin-left:40%;
+}
+.clr {
+  clear: both;
+}
+.container-shower{
+  display: flex;
+  width:60%;
+  height:auto;
+  flex-direction: column;
+}
+.container-border {
+  border-top:1px solid #e8e8e8;
+}
+/******************* PROMO BANNER *********************/
+.banner {
+  background-color: #45A8f9;
+  color: #FFFFFF;
+  min-height: 60px;
+  width:100%;
+}
+.banner p {
+  text-align: center;
+  padding-top:0px;
+
+}
+.speakerphone {
+  height: 40px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+/***************** COMPANY INFO & SOCIALS *********************/
+.contact-info {
+  position:relative;
+  width:100%;
+}
+.ubslogo {
+  float:left;
+  margin:25px 100px;
+}
+.location-icon {
+  float:left;
+  height:40px;
+  margin:30px 20px;
+}
+#service-area {
+  font-size:13px;
+  color:#a3a3a3;
+  font-weight:300;
+  margin-left:-20px;
+  display:inline;
+  margin-top:30px;
+  position:absolute;
+}
+#region {
+  display:inline;
+  font-size:1rem;
+  color: #1a1b5c;
+  font-weight:strong;
+  margin-left:-20px;
+  position:absolute;
+  margin-top:50px;
+}
+.showroom-icon {
+  height: 60px;
+  float:left;
+  margin-left:250px;
+  margin-top: 15px;
+}
+#showroom {
+  font-size:13px;
+  color:#a3a3a3;
+  font-weight:300;
+  float:right;
+  margin-top:30px;
+  margin-left:915px;
+  position:absolute;
+}
+#address {
+  display:inline;
+  font-size:1rem;
+  color: #1a1b5c;
+  float:right;
+  margin-top:50px;
+  margin-left:5px;
+  font-weight:strong;
+  position:absolute;
+}
+.ecohome-icon {
+  height:90px;
+  width:auto;
+  float:right;
+  margin-top:30px;
+  margin-right:50px;
+}
+
+.fb-icon {
+  height:30px;
+  margin-top: 110px;
+  margin-right:20px;
+  margin-left:-300px;
+}
+.ig-icon {
+  height:30px;
+  margin-top: 110px;
+}
+.phone-icon {
+  height: 40px;
+  margin-left:100px;
+}
+.phone {
+  color: #1a1b5c;
+  font-size:1.5rem;
+  margin-left:10px;
+  margin-top: 100px;
+  position: absolute;
+}
+/****************** NAV BAR *****************/
+#nav-bar {
+  width:100%;
+  background-color:#45A8f9;
+  height: 40px;
+  margin-bottom:0;
+/*ADD BACK IN
+  position: fixed;
+*/
+}
+.nav-link{
+  font-size:18px;
+  font-weight: bold;
+  display:inline;
+  padding:5px 25px;
+}
+.anav {
+  text-decoration: none;
+  color:#FFFFFF;
+}
+a:hover {
+  display:inline-block;
+  color:#12375F;
+}
+/*****************SHOWCASE & CONTACT FORM*************/
+#showcase {
+  background-image: url(../images/main-banner.jpg);
+  background-position:30% 0%;
+  position:relative;
+  width:100%;
+  height:25%;
+  background-repeat: no-repeat;
+}
+.showcase-text {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 45px;
+  font-weight:400;
+  max-width: 600px;
+  margin-top:120px;
+  margin-left:50px;
+  position:absolute;
+}
+.showcase-text2 {
+  color:#45a8f9;
+  font-size:45px;
+  position:absolute;
+  text-align:center;
+  margin-top: 250px;
+  margin-left:145px;
+}
+.contactform {
+  color:blue;
+  position:absolute;
+  margin-left:70%;
+  height:100%;
+  width:40%;
+  border:1px solid black;
+}
+.form-title {
+  color:#FFFFFF;
+  text-transform:uppercase;
+  padding-left:30px;
+  padding-right: 30px;
+}
+
+.form-boxes {
+  display:grid;
+  margin-top:0px;
+  position:absolute;
+}
+.container-form {
+ position: absolute;
+ right: 0;
+ margin-right:100px;
+ height:100%;
+ max-width: 30%;
+ background-color: rgba(44, 87, 155, 0.9);
+}
+.box {
+margin:10px 20px 10px 30px;
+height:30px;
+padding-left:20px;
+font-size:18px;
+color:black;
+float:right;
+}
+.service-option {
+  color: grey;
+}
+.selection {
+  color: black;
+}
+.comment-box{
+  color:gray;
+  font-size:18px;
+  margin:10px 20px 10px 30px;
+  font-family: raleway;
+  font-weight:600;
+}
+textarea {
+  resize:none;
+}
+.form-submit {
+  border-radius:5px;
+  background:#45a8f9;
+  text-transform:uppercase;
+  text-align:center;
+  color:#FFFFFF;
+  border:none;
+  height:60px;
+  width:40%;
+  margin-left:120px;
+  margin-top:10px;
+  font-size:18px;
+}
+button:hover {
+  background:#12375F;
+  cursor:pointer;
+}
+.showcase {
+  display:block;
+}
+/******************BATHTUB SERVICES*********************/
+#ourservices h1{
+  margin-left:500px;
+  font-size:3.5rem;
+  color:#14243b;
+}
+.container-services h2 {
+  font-size:1.75rem;
+  color:#14243b;
+  display: flex;
+  justify-content: flex-end;
+  max-width:60%;
+
+}
+.container-services p {
+  flex-direction: column;
+  font-size:1rem;
+  max-width:80%;
+}
+.bathtub {
+  position:absolute;
+  height:90%;
+  margin-left:50px;
+  margin-top:30px;
+  align-items: flex-start;
+}
+
+.calendar {
+  position:absolute;
+  height:7%;
+  margin-top:20px;
+}
+.box1 h2{
+  font-size:1.25rem;
+  color:#16336b;
+  font-weight: 600;
+  margin-left:20%;
+}
+.box1 p{
+  font-size:1rem;
+  max-width:60%;
+  margin-left:20%;
+}
+.cover-up {
+  position: absolute;
+  height:7%;
+  margin-left: 25%;
+  margin-top:20px;
+}
+.box2 h2 {
+  font-size:1.25rem;
+  color:#16336b;
+  font-weight: 600;
+  margin-left:10%;
+  width:100%;
+}
+.box2 p {
+  font-size:1rem;
+  max-width:50%;
+  margin-left:10%;
+}
+.container-services3 {
+  display:flex;
+  width: 60%;
+  margin-left:40%;
+}
+.tools {
+  position:absolute;
+  height:7%;
+  margin-top:20px;
+}
+.award {
+  position: absolute;
+  height: 7%;
+  margin-top:20px;
+  margin-left: 25%;
+}
+.box3 h2{
+  font-size:1.25rem;
+  color:#16336b;
+  font-weight: 600;
+  margin-left:17%;
+}
+.box3 p {
+  font-size:1rem;
+  max-width:50%;
+  margin-left:18%;
+}
+.box4 h2{
+  font-size:1.25rem;
+  color:#16336b;
+  font-weight: 600;
+  margin-left:none;
+  width:100%;
+}
+.box4 p {
+  font-size:1rem;
+  max-width:50%;
+  margin-left:none;
+}
+/********************SHOWER SERVICES***************/
+.container-shower h2 {
+  font-size:1.75rem;
+  color:#14243b;
+  display: flex;
+  justify-content: flex-end;
+  max-width:60%;
+  margin-top:80px;
+}
+.container-shower p{
+  flex-direction: column;
+  font-size:1rem;
+  max-width:80%;
+  margin-left:14%;
+
+}
+.shower {
+  position:absolute;
+  height:90%;
+  margin-top:80px;
+  margin-left:65%;
+  align-items: flex-end;
+}
+.container-shower2 {
+  display:flex;
+  width: 60%;
+
+}
+.shield {
+  position:absolute;
+  height:7%;
+  margin-top:20px;
+  margin-left:10%;
+}
+.hand {
+  position:absolute;
+  height:7%;
+  margin-top:20px;
+  margin-left:35%;
+}
+.box5 h2 {
+  font-size:1.25rem;
+  color:#16336b;
+  font-weight: 600;
+  margin-left:55%;
+}
+.box5 p {
+  font-size:1rem;
+  max-width:65%;
+  margin-left:55%;
+}
+.box6 h2 {
+  font-size:1.25rem;
+  color:#16336b;
+  font-weight: 600;
+  margin-left:40%;
+}
+.box6 p {
+  font-size:1rem;
+  max-width:50%;
+  margin-left:40%;
+}
+.container-shower3 {
+  display:flex;
+  width: 60%;
+}
+.happy-bath {
+  position:absolute;
+  height:7%;
+  margin-left:10%;
+  margin-top:20px;
+}
+.custom {
+  position:absolute;
+  height:7%;
+  margin-left:35%;
+  margin-top:20px;
+}
+.box7 h2 {
+  font-size:1.25rem;
+  color:#16336b;
+  font-weight: 600;
+  margin-left:53%;
+}
+.box7 p {
+  font-size:1rem;
+  max-width:70%;
+  margin-left:53%;
+}
+.box8 h2 {
+  font-size:1.25rem;
+  color:#16336b;
+  font-weight: 600;
+  margin-left:38%;
+}
+.box8 p {
+  font-size:1rem;
+  max-width:50%;
+  margin-left:38%;
+  line-height: 1.5;
+}
+/***************GALLERY*******************/
+.gallery1 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.platinum {
+height:60%;
+width:25%;
+left:10%;
+top:10%;
+position: absolute;
+}
+.walkin {
+  height:60%;
+  width:25%;
+  left:40%;
+  top:10%;
+  position: absolute;
+}
+.wheelchair {
+  height:60%;
+  width:25%;
+  left:70%;
+  top:10%;
+  position: absolute;
+}
+.waterdrop {
+  width:100%;
+  height:250px;
+  position:relative;
+  margin-top:30%;
+  border:1px solid black;
+}
+.platinum-text h2 {
+  top:70%;
+  left:11%;
+  color:white;
+  position: absolute;
+  font-size: 1.25rem;
+}
+.platinum-text p {
+  top:77%;
+  left:12%;
+  color:white;
+  position:absolute;
+  font-size:0.9rem;
+  max-width:20%;
+  text-align: center;
+}
+.walkin-text h2 {
+  top:70%;
+  left:47%;
+  color:white;
+  position: absolute;
+  font-size: 1.25rem;
+}
+.walkin-text p {
+  top:77%;
+  left:42%;
+  color:white;
+  position:absolute;
+  font-size:0.9rem;
+  max-width:20%;
+  text-align: center;
+}
+.wheelchair-text h2 {
+  top:70%;
+  left:71%;
+  color:white;
+  position: absolute;
+  font-size: 1.25rem;
+}
+.wheelchair-text p {
+  top:77%;
+  left:72%;
+  color:white;
+  position:absolute;
+  font-size:0.9rem;
+  max-width:20%;
+  text-align: center;
+}
+/***************ADVANTAGES BANNER*******************/
+.advantages1 {
+  background-image: url(http://www.niagara.ultimatebathsystems.com/assets/images/advantage-bg.jpg);
+  background-size:cover;
+  height:300px;
+  position: relative;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.calculatorbg{
+  height:55%;
+  width:13%;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  top:10%;
+  left:10%;
+  position:absolute;
+}
+.calculator {
+  height:50%;
+  top:25%;
+  left:22%;
+  position: absolute;
+}
+.calculator-text {
+  font-size:1.5rem;
+  color:#000000;
+  top:70%;
+  left:7%;
+  position: absolute;
+}
+.clockbg {
+  height:55%;
+  width:13%;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  top:10%;
+  left:35%;
+  position:absolute;
+}
+.clock {
+  height:50%;
+  top:25%;
+  left:27%;
+  position: absolute;
+}
+.clock-text {
+  font-size:1.5rem;
+  color:#000000;
+  top:70%;
+  left:32%;
+  position: absolute;
+}
+.warrantybg {
+  height:55%;
+  width:13%;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  top:10%;
+  left:58%;
+  position:absolute;
+}
+.warranty {
+  height:50%;
+  top:25%;
+  left:32%;
+  position: absolute;
+}
+.warranty-text {
+  font-size:1.5rem;
+  color:#000000;
+  top:70%;
+  left:57%;
+  position: absolute;
+}
+.professionalbg {
+  height:55%;
+  width:13%;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  top:10%;
+  left:80%;
+  position:absolute;
+}
+.professional {
+  height:50%;
+  top:25%;
+  left:28%;
+  position: absolute;
+}
+.professional-text {
+  font-size:1.5rem;
+  color:#000000;
+  top:70%;
+  left:77%;
+  position: absolute;
+}
+/************************ABOUT US****************/
+.about {
+  background-image: url(http://www.niagara.ultimatebathsystems.com/assets/images/services-bg.jpg);
+  position:relative;
+  width:100%;
+  height:500px;
+  background-repeat: no-repeat;
+}
+.about h2 {
+  font-size:2.5rem;
+  top:30px;
+  left:25%;
+  position:absolute;
+}
+.video {
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  top:150px;
+  left:10%;
+}
+.about h3 {
+  font-weight:600;
+  font-size:1.5rem;
+  line-height:1.3;
+  color:#14243b;
+  max-width:40%;
+  float:right;
+  margin-top:150px;
+  margin-right:10%;
+}
+.about p {
+  position:absolute;
+  font-size:0.9rem;
+  line-height:1.5;
+  color:#14243b;
+  max-width:40%;
+  left:50%;
+  top:320px;
+}
+/*****************PROUDLY SERVING BANNER***************/
+.serving1 {
+  background-image: url(http://www.niagara.ultimatebathsystems.com/assets/images/Proudly-Serving-bg.jpg);
+  position:relative;
+  height:200px;
+  width:100%;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+.city {
+  margin-top: 45px;
+  margin-left: 100px;
+  position: absolute;
+}
+.serving1 h2 {
+  font-size:2.5rem;
+  font-color:#14243b;
+  font-weight:700;
+  position: absolute;
+  top:10%;
+  left:5%;
+}
+.serving1 h3 {
+  font-size:1.875rem;
+  font-color:#14243b;
+  font-weight: 700;
+  position:absolute;
+  top:35%;
+  left:5%;
+}
+.logo1 {
+  position: absolute;
+  left:35%;
+  top:35%;
+}
+.moen {
+  position: absolute;
+  top:35%;
+  left:65%;
+}
+.fleurco {
+  position: absolute;
+  top:35%;
+  left:80%;
+}
+/*******************FINAL FORM******************/
+.final-form {
+  background-image:url(http://www.niagara.ultimatebathsystems.com/assets/images/form-bg.jpg);
+  width:100%;
+  height:500px;
+  position: relative;
+}
+.final-form h2 {
+  color:#FFFFFF;
+  font-size:3rem;
+  position: absolute;
+  top:30px;
+  left:5%;
+}
+.showroom2 {
+  height:60px;
+  position: absolute;
+  top:140px;
+  left:6%;
+}
+.line1 {
+font-size:1.5rem;
+color:#FFFFFF;
+position:absolute;
+top:140px;
+left:12%;
+}
+.line2 {
+  font-size:1.5rem;
+  color:#FFFFFF;
+  position: absolute;
+  top:170px;
+  left:12%;
+}
+.line3 {
+  font-size:1.5rem;
+  color:#FFFFFF;
+  position: absolute;
+  top:200px;
+  left:12%;
+  }
+  .phone2 {
+    height:40px;
+    position: absolute;
+    top:290px;
+    left:7%;
+  }
+  .line4 {
+    font-size:1.5rem;
+    color:#FFFFFF;
+    position:absolute;
+    top:270px;
+    left:12%;
+  }
+  .ecohome2 {
+    height:90px;
+    position: absolute;
+    left:5%;
+    top:360px;
+  }
+.line5 {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  position: absolute;
+  left:15%;
+  top:340px;
+}
+.line6 {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  position: absolute;
+  left:15%;
+  top: 370px;
+}
+.form2-name {
+  position: absolute;
+  top:110px;
+  left:45%;
+  height:40px;
+  width:300px;
+  font-size: 18px;
+  color:black;
+  padding-left:20px;
+}
+.form2-email {
+  position:absolute;
+  top:110px;
+  left:70%;
+  height:40px;
+  width:300px;
+  font-size: 18px;
+  color: black;
+  padding-left:20px;
+}
+.form2-phone {
+  position: absolute;
+  top:180px;
+  left:45%;
+  height:40px;
+  width:300px;
+  font-size:18px;
+  color: black;
+  padding-left:20px;
+}
+.form2-services {
+  position: absolute;
+  top:180px;
+  left:70%;
+  height:45px;
+  width:325px;
+  color:grey;
+  font-size:18px;
+  padding-left:20px;
+}
+.form2-comment {
+  position: absolute;
+  top:250px;
+  left:45%;
+  padding-left:20px;
+  padding-top:10px;
+  color:grey;
+  height:90px;
+  width:635px;
+  font-size:18px;
+  font-weight:500;
+}
+.form2-submit {
+  position: absolute;
+  border-radius:5px;
+  background:#45a8f9;
+  text-transform:uppercase;
+  text-align:center;
+  color:#FFFFFF;
+  border:none;
+  height:60px;
+  width:200px;
+  top:400px;
+  left:62%;
+  font-size:18px;
+}
